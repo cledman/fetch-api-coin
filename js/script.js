@@ -1,6 +1,6 @@
 function getData(){
     const apiKey={
-        key:'cce73542-2416-4dff-8677-7277393919ff'
+        key:'PUT YOUR API CODE HERE'
     };
     
     let contentData = "";
