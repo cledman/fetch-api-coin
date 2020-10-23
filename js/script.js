@@ -25,7 +25,7 @@ fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY='
                     <div class="media-coin">
                        <h2 >${api.data[i].name}</h5>
                         <p class="subTitle">${api.data[i].symbol}</p>
-                        <p class="text-right">Fist Historial data:</p>     
+                        <p class="text-right">First Historial data:</p>     
                         <p class="dtHistorical">${moment(dtFirstHistoricalData).format('DD/MM/Y')}</p>           
                     </div>
                 </div>
