@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;  
+    margin:0;
+    padding:0;
+}
+
+body{
+    color: #fff;
+    background: #ebf2f5;
+    font-family: 'Raleway', sans-serif;
+}
+
+body, input, button, textarea{
+    font: 600 18px sans-serif;
+}
+
+.coin{
+    border-radius: 50%;
+    display: block;
+    width: 100px;
+    z-index: 99 !important;
+}
+
+.coinItem{
+    background-color: #fff;
+    border: 2px solid #dadce0;
+    border-radius: 10px;;
+    color:#17181b;
+    float: left;    
+    margin:30px; 
+    min-width: 30vw;   
+    padding:15px;    
+    
+}
+
+.media-coin{
+    font-size: 90%;;
+    width: 100%;
+}
+.subTitle{
+    color:#98a4c2;    
+}
+
+.dtHistorical{
+   text-align: right;
+}
+
+.wrappery{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 100%;
+}
